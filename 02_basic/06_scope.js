@@ -8,3 +8,35 @@ if (true){
 }
 
 console.log(a);
+
+
+function one (){
+    const username ="samrudhi"
+
+    function two (){
+        const website ="youtube"
+        console.log(username)
+    }
+    two()
+}
+one()
+
+if(true){
+    const username ="samrudhi"
+    if(true){
+        const website ="  youtube"
+        console.log(username + website)
+    }
+}
+
+console.log(addone(5))
+function addone(num){
+    return num + 1
+}
+
+
+
+const addtwo = function(num){
+    return num + 2
+}
+console.log(addtwo(5))
